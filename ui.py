@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np 
 import pickle
 
-model = pickle.load(open(r'car-price-prediction-ml-project/model.pkl','rb'))
+model = pickle.load(open(r'Car-Price-Prediction-ML-Project/model.pkl','rb'))
 data = pickle.load(open(r'car-price-prediction-ml-project/data.pkl','rb'))
 
 st.title('Car Price Prediction')
