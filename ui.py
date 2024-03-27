@@ -68,7 +68,7 @@ if st.button('Predict Price'):
     query = query.reshape(1,18)
     price = round(int(np.exp(model.predict(query)[0])))
 
-    st.title(f'Predicted Price:{price}')
+    st.title(f'Predicted Price:₹{price}')
 
 
 
