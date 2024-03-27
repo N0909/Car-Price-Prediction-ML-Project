@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np 
 import pickle
 
-model = pickle.load(open("https://drive.google.com/file/d/1QIUcWaWNSvulG0w5-iuXy9fmhSVMhVmj/view?usp=drive_link",'rb'))
-data = pickle.load(open("https://drive.google.com/file/d/1qxUnylnJOYgySzyccFdUkh4f3xFDWiO2/view?usp=drive_link",'rb'))
+model = pickle.load(open("model.pkl",'rb'))
+data = pickle.load(open("data.pkl",'rb'))
 
 st.title('Car Price Prediction')
 
